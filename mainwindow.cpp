@@ -110,7 +110,7 @@ void MainWindow::onWebSocketTextMessageReceived(const QString &message)
         QString msg = jsonObject["message"].toString();
         QString room = jsonObject["room"].toString();
         ui->textBrowser->append(msg);
-        qDebug() << "Received message:" << message;
+        qDebug() << "Received message:" << msg;
     }
 }
 
