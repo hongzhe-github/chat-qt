@@ -36,6 +36,8 @@ private slots:
     void onWebSocketTextMessageReceived(const QString &message);
 
 
+    void on_pushButtonClose_clicked();
+
 private:
     Ui::MainWindow *ui;
     QWebSocket m_webSocket;

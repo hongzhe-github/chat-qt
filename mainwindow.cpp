@@ -157,8 +157,8 @@ QJsonArray MainWindow::parseJsonResponse(const QByteArray& response) {
     return document.array();
 }
 
-
-
-
-
+void MainWindow::on_pushButtonClose_clicked()
+{
+    this->close();
+}
 
